@@ -7,14 +7,20 @@
 html,
 body {
   overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: #050505;
   position: relative;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .cube {
