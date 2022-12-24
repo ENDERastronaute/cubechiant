@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   display: flex;
   justify-content: center;
@@ -11,7 +15,6 @@ body {
   min-height: 100vh;
   background: #050505;
   position: relative;
-  overflow: hidden;
 }
 
 .cube {
